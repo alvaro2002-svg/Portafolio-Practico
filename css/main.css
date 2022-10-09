@@ -314,12 +314,121 @@ header .navbar a:hover {
 }
 
 
+/* blogs */
+.blogs .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+.blogs .box-container .box {
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem;
+}
+
+
+.blogs .box-container .box img {
+    height: 20rem;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: cover;
+}
+
+.blogs .box-container .box h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.blogs .box-container .box p {
+    color: #666;
+    font-size: 1.7rem;
+    padding: 0.5rem 0;
+}
 
 
 
+/* contact */
+.contact .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row .image {
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img {
+    width: 100%;
+}
+
+.contact .row form {
+    flex: 1 1 40rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #fff;
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.contact .row form .inputBox input,
+.contact .row .box,
+.contact .row textarea {
+    width: 100%;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+    color: #333;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    text-transform: none;
+}
+
+.contact .row form .inputBox input:focus,
+.contact .row .box:focus,
+.contact .row textarea:focus {
+    border-color: var(--green);
+}
 
 
+.contact .row form .inputBox input {
+    width: 49%;
+}
 
+.contact .row form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+.contact .row form .btn {
+    margin: 1rem 0;
+}
+
+
+/* footer */
+.footer {
+    padding: 2.5rem;
+    font-size: 2rem;
+    color: #666;
+    background: #fff;
+    text-align: center;
+}
+
+.footer span {
+    color: var(--green);
+}
 
 
 
